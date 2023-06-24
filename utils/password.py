@@ -36,6 +36,6 @@ class PasswordGenerator:
                 self.logger.info(
                     f"{verif.password} --> password secure ? {verif.is_secure()}"
                 )
-                self.logger.info(f"Sleeping for 5 sec ...")
-                time.sleep(5)
+                self.logger.info(f"Sleeping for 2 sec ...")
+                time.sleep(2)
             return verif.password
